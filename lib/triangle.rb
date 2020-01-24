@@ -33,7 +33,10 @@ class Triangle
 end 
   
 class TriangleError < StandardError 
-  #triagnle error code
+  def message 
+    puts "not a triangle"
+  end 
+  
 end 
 
 end

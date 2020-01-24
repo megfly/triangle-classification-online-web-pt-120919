@@ -23,7 +23,7 @@ class Triangle
     else if s1 == s2 && s1 == s3 
       self.kind = :equilateral
       
-    else if s1 == s2 && s1 == s3 
+    else if s1 == s2 ||  
       self.kind = :isosceles
       
     else if s1 == s2 && s1 == s3 

@@ -26,9 +26,9 @@ class Triangle
     else if s1 == s2 || s1 == s3 || s2 == s3
       self.kind = :isosceles
       
-    else if s1 == s2 && s1 == s3 
+    else 
       self.kind = :scalene
-    
+    end 
   end 
   
 class TriangleError < StandardError 

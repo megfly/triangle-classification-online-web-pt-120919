@@ -17,7 +17,7 @@ class Triangle
       
       raise TriangleError
       
-    else
+    else if 
     
   end 
   

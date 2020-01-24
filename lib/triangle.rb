@@ -12,6 +12,7 @@ class Triangle
   end 
   
 class TriangleError < StandardError 
+  #triagnle error code
 end 
 
 end

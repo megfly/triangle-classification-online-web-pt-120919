@@ -13,6 +13,10 @@ class Triangle
     #triangle rules 
     #The sum of the lengths of any two sides of a triangle always exceeds the length of the third side.
     
+    if (@s1 + @s2) <= @s3
+      
+      #raise 
+    
   end 
   
 class TriangleError < StandardError 
